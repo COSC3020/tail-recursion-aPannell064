@@ -39,7 +39,7 @@ $\Theta(n)$, which is much faster than the standard implementation.
 
 ## Extra Help
 
-I based my code off iterative approach in the slides. 
+I based my code off the iterative approach in the slides. 
 
 "I certify that I have listed all sources used to complete this exercise, 
 including the use of any Large Language Models. All of the work is my own, 
