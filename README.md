@@ -33,9 +33,9 @@ on both sides roughly n times. This means that it has an exponential time
 complexity at $\Theta(2^n)$. However, in order to make a tail-recursive 
 implementation, you can't perform any actions after the recursive call 
 other than just returning the result. That is why my implementation just 
-makes one recursive call each time. Since before that call, n is decreasing 
-by one each time, the complexity of my tail-recursive implementation is 
-$\Theta(n)$, which is much faster than the standard implementation. 
+makes one recursive call each time. Since n is decreasing by one each time, 
+the complexity of my tail-recursive implementation is $\Theta(n)$, which is 
+much faster than the standard implementation. 
 
 ## Extra Help
 
