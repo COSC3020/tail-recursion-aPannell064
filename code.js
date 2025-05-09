@@ -1,4 +1,4 @@
-function fibTR(n, old=1, current=1, next=0) {
+function fibTR(n, old=1, current=1, next) {
     if(n <= 2) {return current;}
     next = current + old;
     old = current;
